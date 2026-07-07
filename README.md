@@ -1,4 +1,4 @@
-# disco_aniso_validation
+# IPTA Anisotropy Data Challenge
 Repo containing scripts, notebooks, and datasets for validating anisotropy analyses in discovery
 
 Hello! Welcome and thank you for your interest in helping test the next generation of anisotropy search software! We have a lot to test, so check [this spreadsheet](https://docs.google.com/spreadsheets/d/1hOY8cTVAbK4HB3_8zVXUWulZvwcu5ylcfTzf06Grm-w/edit?usp=sharing) and get in touch on the IPTA Slack (#ipta_dr3_anisotropy)
