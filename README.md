@@ -5,12 +5,18 @@ Hello! Welcome and thank you for your interest in helping test the next generati
 
 ## 1 - installation
 1. Clone this repo
-2. Set up a mamba/virtual environment:
-  - environments/jhp_disco.yaml for mamba/conda
-  - environments/requirements.txt for python venv / pip
-3. Activate the environment
-4. Clone [Levi's fork of discovery](https://github.com/levischult/discovery) which is the home for the anisotropy tools as of now.
-  - Once you have cloned discovery, you will need to navigate into the repo and run `pip install -e .` to install an editable version of discovery.
+2. Clone [Levi's fork of discovery](https://github.com/levischult/discovery) which is the home for the anisotropy tools as of now.
+3. Set up a conda/mamba virtual environment
+  - mamba create --name=jhpds_0 python=3.12
+  - mamba activate jhpds_0
+  - pip install jax[cuda12]
+  - pip install jax-healpy
+  - cd discovery
+  - pip install -e .
+  - pip install git+https://github.com/nanograv/enterprise_extensions@master
+  - mamba install ipykernel numpyro sympy corner
+  - pip install git+https://github.com/GersbachKa/defiant
+
 
 ## 2 - Example Notebooks:
   - examples/ has notebooks to demonstrate how to set up broad/narrowband models.
